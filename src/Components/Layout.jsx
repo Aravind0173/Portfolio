@@ -19,6 +19,7 @@ function Layout() {
         {/* Main content area with padding to avoid overlap with fixed header/footer */}
         <main className="flex-1 pt-16 pb-16 bg-teal-950 text-white">
           <Routes>
+            <Route path="/" element={<About />} />
             <Route path="/About" element={<About />} />
             <Route path="/Skill" element={<Skill />} />
             <Route path="/Project" element={<Project />} />
